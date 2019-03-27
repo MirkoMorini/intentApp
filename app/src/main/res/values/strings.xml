@@ -6,4 +6,9 @@
     <string name="view">view</string>
     <string name="search">search</string>
     <string name="send">send</string>
+
+    <string name="defaultMsg">Messaggio di default!</string>
+    <string name="defaultNum">123456</string>
+    <string name="defaultAddr">https://www.google.it</string>
+    <string name="share_with">Condividi tramite:</string>
 </resources>
