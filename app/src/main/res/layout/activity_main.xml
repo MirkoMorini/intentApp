@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="50dp"
-            android:text="Intents!"
+            android:text="@string/intents"
             android:textAlignment="center"
             android:textSize="30sp" />
 
@@ -42,54 +42,59 @@
                 android:orientation="vertical">
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/buttonNewAct"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:background="@android:color/holo_blue_light"
                     android:minWidth="100dp"
                     android:onClick="newActivityClicked"
-                    android:text="New Activity" />
+                    android:text="@string/new_activity"
+                    android:textAllCaps="true" />
 
                 <Button
-                    android:id="@+id/button2"
+                    android:id="@+id/buttonCall"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:background="@color/colorAccent"
                     android:minWidth="100dp"
                     android:onClick="callClicked"
-                    android:text="CALL" />
+                    android:text="@string/call"
+                    android:textAllCaps="true" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/buttonView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:background="@android:color/holo_red_light"
                     android:minWidth="100dp"
                     android:onClick="viewClicked"
-                    android:text="VIEW" />
+                    android:text="@string/view"
+                    android:textAllCaps="true" />
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/buttonSearch"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:background="@android:color/holo_orange_light"
                     android:minWidth="100dp"
                     android:onClick="searchClicked"
-                    android:text="SEARCH" />
+                    android:text="@string/search"
+                    android:textAllCaps="true" />
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/buttonSend"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
                     android:background="#ff00ff00"
                     android:minWidth="100dp"
                     android:onClick="sendClicked"
-                    android:text="SEND" />
+                    android:text="@string/send"
+                    android:textAllCaps="true" />
 
             </LinearLayout>
         </ScrollView>
